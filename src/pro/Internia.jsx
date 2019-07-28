@@ -120,7 +120,7 @@ class Internia extends Component {
                                 {/* toggle and nav items */}
                                 {/* ============================================================== */}
                                 <ul className="navbar-nav float-left mr-auto" style={{ marginLeft: '4%' }}>
-                                    <li className="nav-item d-none d-md-block"><a className="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i className="mdi mdi-menu font-18" onClick={this.handleToggle}></i></a></li>
+                                    <li className="nav-item d-none d-md-block"><a className="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i className="fa fa-bars font-18" onClick={this.handleToggle}></i></a></li>
 
 
 
@@ -180,108 +180,7 @@ class Internia extends Component {
                                     {/* ============================================================== */}
                                     {/* mega menu */}
                                     {/* ============================================================== */}
-                                    <li className="nav-item dropdown mega-dropdown"><a className="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span className="d-none d-md-block">Mega <i className="icon-options-vertical"></i></span>
-                                        <span className="d-block d-md-none"><i className="mdi mdi-dialpad font-24"></i></span>
-                                    </a>
-                                        <div className="dropdown-menu animated bounceInDown">
-                                            <div className="mega-dropdown-menu row">
-                                                <div className="col-lg-3 col-xlg-2 mb-4">
-                                                    <h5 className="mb-3">CAROUSEL</h5>
-                                                    {/* CAROUSEL */}
-                                                    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                                                        <div className="carousel-inner" role="listbox">
-                                                            <div className="carousel-item active">
-                                                                <div className="container p-0"> <img className="d-block img-fluid" src="/dashboard_assets/assets/images/big/img1.jpg" alt="First slide" /></div>
-                                                            </div>
-                                                            <div className="carousel-item">
-                                                                <div className="container p-0"><img className="d-block img-fluid" src="/dashboard_assets/assets/images/big/img2.jpg" alt="Second slide" /></div>
-                                                            </div>
-                                                            <div className="carousel-item">
-                                                                <div className="container p-0"><img className="d-block img-fluid" src="/dashboard_assets/assets/images/big/img3.jpg" alt="Third slide" /></div>
-                                                            </div>
-                                                        </div>
-                                                        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span className="carousel-control-prev-icon" aria-hidden="true"></span> <span className="sr-only">Previous</span> </a>
-                                                        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span className="carousel-control-next-icon" aria-hidden="true"></span> <span className="sr-only">Next</span> </a>
-                                                    </div>
-                                                    {/* End CAROUSEL */}
-                                                </div>
-                                                <div className="col-lg-3 mb-4">
-                                                    <h5 className="mb-3">ACCORDION</h5>
-                                                    {/* Accordian */}
-                                                    <div id="accordion" className="accordion">
-                                                        <div className="card mb-1">
-                                                            <div className="card-header" id="headingOne">
-                                                                <h5 className="mb-0">
-                                                                    <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                        Collapsible Group Item #1
-                                                </button>
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                                                <div className="card-body">
-                                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry.
-                                                    </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="card mb-1">
-                                                            <div className="card-header" id="headingTwo">
-                                                                <h5 className="mb-0">
-                                                                    <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                        Collapsible Group Item #2
-                                                </button>
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                                                <div className="card-body">
-                                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry.
-                                                    </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="card mb-1">
-                                                            <div className="card-header" id="headingThree">
-                                                                <h5 className="mb-0">
-                                                                    <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                        Collapsible Group Item #3
-                                                </button>
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                                                <div className="card-body">
-                                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry.
-                                                    </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3  mb-4">
-                                                    <h5 className="mb-3">CONTACT US</h5>
-                                                    {/* Contact */}
-                                                    <form>
-                                                        <div className="form-group">
-                                                            <input type="text" className="form-control" id="exampleInputname1" placeholder="Enter Name" /> </div>
-                                                        <div className="form-group">
-                                                            <input type="email" className="form-control" placeholder="Enter email" /> </div>
-                                                        <div className="form-group">
-                                                            <textarea className="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
-                                                        </div>
-                                                        <button type="submit" className="btn btn-info">Submit</button>
-                                                    </form>
-                                                </div>
-                                                <div className="col-lg-3 col-xlg-4 mb-4">
-                                                    <h5 className="mb-3">LIST STYLE</h5>
-                                                    {/* List style */}
-                                                    <ul className="list-style-none">
-                                                        <li><a href="javascript:void(0)"><i className="fa fa-check text-success"></i> You can give link</a></li>
-                                                        <li><a href="javascript:void(0)"><i className="fa fa-check text-success"></i> Give link</a></li>
-                                                        <li><a href="javascript:void(0)"><i className="fa fa-check text-success"></i> Another Give link</a></li>
-                                                        <li><a href="javascript:void(0)"><i className="fa fa-check text-success"></i> Forth link</a></li>
-                                                        <li><a href="javascript:void(0)"><i className="fa fa-check text-success"></i> Another fifth link</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+
                                     {/* ============================================================== */}
                                     {/* End mega menu */}
                                     {/* ============================================================== */}
@@ -346,7 +245,7 @@ class Internia extends Component {
                                     {/* Messages */}
                                     {/* ============================================================== */}
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="font-18 mdi mdi-gmail"></i>
+                                        <a className="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="font-18 fa fa-envelope-o"></i>
 
                                         </a>
                                         <div className="dropdown-menu dropdown-menu-left mailbox animated bounceInDown" aria-labelledby="2">
@@ -393,7 +292,7 @@ class Internia extends Component {
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <img src="/dashboard_assets/assets/images/users/1.jpg" alt="user" className="rounded-circle" width="36" />
-                                            <span className="ml-2 font-medium">Steve</span><span className="fas fa-angle-down ml-2"></span>
+                                            <span className="ml-2 font-medium">Steve</span><span className="fa fa-angle-down ml-2"></span>
                                         </a>
                                         <div className="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                             <div className="d-flex no-block align-items-center p-3 mb-2 border-bottom">

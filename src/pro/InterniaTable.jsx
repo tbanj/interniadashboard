@@ -101,8 +101,8 @@ class InterniaTable extends Component {
 
                                             <td><div>
                                                 <div>
-                                                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>{item.company}</span>
-                                                    <span className="badge badge-danger">{item.site_admin === false ? 'false' : 'true'}</span>
+                                                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>{item.company} </span>
+                                                    <span className="badge badge-danger"> {item.site_admin === false ? 'false' : 'true'}</span>
                                                 </div>
                                                 <span style={{ color: '#999999' }}>{item.location}</span></div></td>
                                             <td><div ><h4>{item.public_repos}</h4><span style={{ color: '#999999' }}>{item.followers}</span></div></td>

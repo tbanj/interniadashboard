@@ -1,21 +1,13 @@
 
 import React, { Component } from 'react';
 import { userDatas } from '../services/userService.js'
-import localStorage from '../localstorage/Storage.js'
 import http from '../services/httpService.js'
 import Sidebar from '../component/dashboard/Sidebar.jsx';
 import InterniaTable from './InterniaTable.jsx';
 import { Link } from "react-router-dom";
 let removeWidth = { width: '300px' };
 let removeAside = 'left-sidebar mx-5';
-// const ls = new localStorage();
-// let employee = [{
-//     id: 1,
-//     first_name: 'Alabi ', last_name: 'Temitope', location: 'Lagos',
-//     public_repos: 10, company: 'Majatech Inc', bio: 'Software Developer',
-//     followers: 20, pix: '/dashboard_assets/assets/images/users/5.jpg', hireable: 'false',
-//     public_gists: 1
-// }];
+
 class Internia extends Component {
     state = {
         removeWidth: '',

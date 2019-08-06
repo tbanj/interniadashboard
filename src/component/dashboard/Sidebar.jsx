@@ -9,7 +9,6 @@ import "./sidebar.css";
 class Sidebar extends Component {
     state = {}
     render() {
-        console.log(this.props.sendMargin)
         const { sendMargin } = this.props;
         return (
             <div className=" roundsidebar" >

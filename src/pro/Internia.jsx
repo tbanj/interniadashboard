@@ -5,7 +5,7 @@ import http from '../services/httpService.js'
 import Sidebar from '../component/dashboard/Sidebar.jsx';
 import InterniaTable from './InterniaTable.jsx';
 import { Link } from "react-router-dom";
-let removeWidth = { width: '300px' };
+let removeWidth = { width: '50px' };
 let removeAside = 'left-sidebar ';
 
 class Internia extends Component {
@@ -57,7 +57,6 @@ class Internia extends Component {
 
     }
     handleToggle = () => {
-        console.log(this.state.toggleCheck);
         this.setState({
             toggleCheck: !this.state.toggleCheck,
         });

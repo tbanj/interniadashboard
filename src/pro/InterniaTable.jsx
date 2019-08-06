@@ -4,7 +4,6 @@ class InterniaTable extends Component {
     state = {}
     render() {
         const { onEmployee } = this.props;
-        console.log(onEmployee);
         return (
             <div className="col-12 ">
                 <div className="card">
@@ -110,7 +109,7 @@ class InterniaTable extends Component {
                                             <td style={{ fontSize: '2.5em' }}><span className="fa fa-trash-o"></span> </td>
 
                                         </tr>
-                                    )) :<tr ><td className="footable-even colSpan-7">{this.props.dataError ? "No data found" : "please wait, data loading in progress"}</td></tr>}
+                                    )) : <tr ><td className="footable-even colSpan-7">{this.props.dataError ? "No data found" : "please wait, data loading in progress"}</td></tr>}
 
 
 

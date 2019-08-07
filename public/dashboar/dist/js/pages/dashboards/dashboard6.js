@@ -1,5 +1,5 @@
 /*
-Template Name: Ample Admin
+Template Name: Majamax
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js

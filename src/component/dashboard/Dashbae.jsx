@@ -318,7 +318,7 @@ class Dashboard extends Component {
                                     <h5 class="font-medium text-uppercase mb-0">Form Basic</h5>
                                 </div>
                                 <div class="col-lg-9 col-md-8 col-xs-12 align-self-center">
-                                    <button class="btn btn-danger text-white float-right ml-3 d-none d-md-block">Buy Ample Admin</button>
+                                    <button class="btn btn-danger text-white float-right ml-3 d-none d-md-block">Buy Majamax</button>
                                     <nav aria-label="breadcrumb" class="mt-2 float-md-right float-left">
                                         <ol class="breadcrumb mb-0 justify-content-end p-0">
                                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -330,7 +330,7 @@ class Dashboard extends Component {
                         </div>
 
                         <footer class="footer text-center">
-                            All Rights Reserved by Ample admin. Designed and Developed by <a href="https://wrappixel.com/">WrapPixel</a>.
+                            All Rights Reserved by Majamax. Designed and Developed by <a href="https://wrappixel.com/">WrapPixel</a>.
             </footer>
 
                     </div>

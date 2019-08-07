@@ -131,7 +131,7 @@
         var today = new Date($.now());
 
         var defaultEvents =  [{
-                title: 'Released Ample Admin!',
+                title: 'Released Majamax!',
                 start: new Date($.now() + 506800000),
                 className: 'bg-info'
             }, {

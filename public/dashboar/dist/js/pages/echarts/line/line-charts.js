@@ -215,7 +215,7 @@ $(function() {
             },
             // Add legend
                 legend: {
-                    data: ['Elite admin', 'Monster admin', 'Ample admin', 'Material admin', 'Angular admin']
+                    data: ['Elite admin', 'Monster admin', 'Majamax', 'Material admin', 'Angular admin']
                 },
 
                 // Add custom colors
@@ -253,7 +253,7 @@ $(function() {
                         data: [220, 182, 191, 234, 290, 330, 310]
                     },
                     {
-                        name: 'Ample admin',
+                        name: 'Majamax',
                         type: 'line',
                         stack: 'Total',
                         data: [150, 232, 201, 154, 190, 330, 410]
@@ -293,7 +293,7 @@ $(function() {
             },
             // Add legend
                 legend: {
-                    data: ['Elite admin', 'Monster admin', 'Ample admin', 'Material admin', 'Angular admin']
+                    data: ['Elite admin', 'Monster admin', 'Majamax', 'Material admin', 'Angular admin']
                 },
 
                 // Add custom colors
@@ -333,7 +333,7 @@ $(function() {
                         data: [220, 182, 191, 234, 290, 330, 310]
                     },
                     {
-                        name: 'Ample admin',
+                        name: 'Majamax',
                         type: 'line',
                         stack: 'Total',
                         areaStyle: {},
